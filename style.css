@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #DAD7CD;
+    color: #588157
+}
+
+.titulo-destaque {
+    color: #344E41;
+}
+
+.apresentacao {
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    border: 10px ;
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+}
+
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #344E41;
+    color: white;
+    border: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    margin: 10px 0 10px 0;
+    max-width: 30%;
+    
+}
